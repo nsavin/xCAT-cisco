@@ -1,5 +1,6 @@
 xCAT-cisco is a plugin to allow xCAT hardware management 
-commands (like rpower, rinv, etc) to run on the Cisco UCS platform.  
+commands (currenlty supported rpower, getmacs, rbootseq) to run on the
+Cisco UCS platform.  
 
 xCAT (Extreme Cloud Administration Toolkit) is an open source 
 hardware tool used to provision physical and virtual machines 
@@ -15,8 +16,9 @@ For more information on xCAT see: http://xcat.sf.net
 
 Installation instructions:
 
-When this is complete, there will be an RPM that you should see on this page. Simply download
-the RPM and install it *after* you have installed xCAT.  
+When this is complete, there will be an RPM that you should see on this
+page. Simply download the RPM and install it *after* you have installed
+xCAT.  
 For information on how to install xCAT see: 
 
 http://sumavi.com/sections/local-installation
@@ -43,3 +45,4 @@ rpm -ivh xCAT-cisco*rpm
 
 If you have questions please send them my way:
 vallard@benincosa.com
+nsavin@griddynamics.com
